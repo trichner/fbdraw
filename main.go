@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/fogleman/gg"
 	"github.com/golang/freetype/truetype"
-	"github.com/trichner/fbmon/framebuffer"
+	"github.com/trichner/fbdraw/framebuffer"
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/basicfont"
 	"golang.org/x/image/font/gofont/gomono"
