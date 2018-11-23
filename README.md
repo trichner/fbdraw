@@ -2,6 +2,13 @@
 Those are the chronicles of my search for knowledge about Linux framebuffer devices.
 You can find the devices in `/dev/fb{0..32}`.
 
+## Drawing
+The goal here is to create a basic UI on the 4DPi 2.4" HAT display for the Raspberry Pi.
+
+What works:
+- can draw shapes
+- can draw fonts
+
 ## Double-Buffering
 The proper term is 'panning'. The `FBIOGET_FSCREENINFO` `ioctl` indicates if this is supported by the driver or not.
 
